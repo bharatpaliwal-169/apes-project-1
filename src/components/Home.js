@@ -2,6 +2,7 @@ import React from 'react';
 import bg from './images/banner.jpg';
 import Info from './Elements/Info';
 import Poster from './Elements/Poster';
+import Client from './Elements/Client';
 const Home = () => {
   return (
     <div className="container-fluid">
@@ -10,6 +11,7 @@ const Home = () => {
       </div>
       <Info />
       <Poster />
+      <Client/>
     </div>
   )
 }
